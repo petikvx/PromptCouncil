@@ -1,0 +1,5 @@
+streamlit>=1.45
+openai>=1.70
+google-genai>=1.20
+python-dotenv>=1.0
+anthropic>=2.8
