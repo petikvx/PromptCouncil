@@ -4,6 +4,8 @@
 
 PromptCouncil est une petite application [Streamlit](https://streamlit.io) qui envoie le même prompt à plusieurs grands modèles de langage en même temps. Les réponses s'affichent côte à côte, en streaming, ce qui permet de comparer leur qualité, leur vitesse et leur coût.
 
+![Capture d'écran de PromptCouncil : quatre modèles répondent au même prompt côte à côte](docs/screenshot.png)
+
 ## ✨ Fonctionnalités
 
 - **Requêtes en parallèle** vers 4 fournisseurs (Anthropic, xAI, Google, OpenAI), avec affichage en streaming.
@@ -74,6 +76,7 @@ app.py             # application Streamlit (fournisseurs, streaming, coûts, sta
 council.sh         # démarrage / arrêt en arrière-plan
 requirements.txt   # dépendances Python
 .env.example       # modèle de fichier de clés
+docs/              # captures d'écran
 stats.json         # statistiques cumulées (généré, ignoré par git)
 ```
 
