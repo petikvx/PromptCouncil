@@ -81,3 +81,7 @@ stats.json         # statistiques cumulées (généré, ignoré par git)
 
 - `.env` est exclu du dépôt par le `.gitignore`. Ne commitez jamais vos clés.
 - Les coûts affichés sont des **estimations** calculées à partir des tarifs configurés. Seule la facturation de chaque fournisseur fait foi.
+
+## 📄 Licence
+
+Distribué sous licence [MIT](LICENSE).
